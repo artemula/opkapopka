@@ -57,7 +57,7 @@
                        freqtolength = parse(Float64, readline())
                        freqtolengthansm = 299792458 / freqtolength
                        freqtolengthansnm = (299792458 / freqtolength) / 1e-9
-                       println("Your wave length is $(freqtolengthansm) m, or $(freqtolengthnasnm) nm")
+                       println("Your wave length is $(freqtolengthansm) m, or $(freqtolengthnansm) nm")
                    elseif wavelengthanswer == "energy"
                        println("What is your energy?")
                        enertolength = parse(Float64, readline())
@@ -68,4 +68,5 @@
            else
            println("Wrong input")
            end
+
 end
